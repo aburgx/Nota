@@ -1,0 +1,72 @@
+body {
+    background-color: #dddddd;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.dropdown-toggle::after {
+    display: none; /* Entfernt von Bootstrap Pfeil bei Dropdown */
+}
+
+#me-dropdown {
+    min-width: 450px;
+}
+
+#me-dropdown-item {
+    background-color: white !important;
+    color: black !important;
+}
+
+#me-navbar {
+    background-color: #3F51B5 !important;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.75);
+    font-size: 1.25rem;
+}
+
+.me-login-button {
+    background-color: #283593 !important;
+    border-color: #1A237E !important;
+    color: white !important;
+}
+
+.me-todo-item {
+    border: 0 !important;
+    color: white;
+    background-color: #343a40;
+}
+
+#me-info-box {
+    height: 100vh !important;
+    border-left: 1px rgba(0, 0, 0, 0.125) solid;
+    border-top: 1px rgba(0, 0, 0, 0.125) solid;
+    box-shadow: 0px 2px 1px 0px #EEEEEE;
+    background-color: #EEEEEE;
+    border-top-left-radius: 4px;
+}
+
+.me-tick {
+    border: 1px rgba(0, 0, 0, 0.125) solid;
+}
+
+#me-submitTask-button {
+    background-image: url('../images/plus.svg') !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 2.25em;
+}
+
+.me-removeNote-button {
+    background-image: url("../images/cross-red.svg") !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1.5em 1.5em;
+    background-color: white;
+    width: 1em;
+    height: 1em;
+}
+
+
+
+
+
+
